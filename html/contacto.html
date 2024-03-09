@@ -1,0 +1,77 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Contácto</title>
+<link href="../css/galeriacss.css" rel="stylesheet" type="text/css">
+<style type="text/css">
+body main section #form2 {
+	width: 50%;
+	margin: 0 auto;
+	padding: 30px;
+	background-color: #36C9C6;
+	background-size: auto auto;
+	height: auto;
+	border-radius: 5px;
+}
+#form2 {
+}
+body main section {
+    width: 80%;
+    text-align: left;
+}
+#form2 label {
+	margin: 10 px;
+	padding: 20 px;
+	font-weight: bold;
+	color: #F4F1BB;
+}
+#form2 #enviar {
+	width: 30%;
+	margin: 0 auto;
+	height: auto;
+	background-color: #F4F1BB;
+	border-radius: 5px;
+	padding: 20 px;
+	display: block;
+}
+#form2 #form2nombre , #form2 #email{
+	width: 100%;
+	padding: 5px;
+	color: #ED6A5A;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	border-radius: 9px;
+	height: auto;
+}
+</style>
+</head>
+
+<body>
+<header>
+  <h1>Contácto</h1>
+</header>
+<nav>
+		<ul>
+    		<li><a href="../index.html"><b>Inicio</b></a></li>
+    		<li><a href="../galeria.html"><b>Galería</b></a></li>
+    		<li><strong><a href="practicas.html">Prácticas</a></strong></li>
+    		<li><strong><a href="contacto.html">Contacto</a></strong></li>
+  </ul>
+</nav>
+<main>
+  	<section>
+  	  <form id="form2" name="form2" method="post">
+  	    <label for="form2nombre">Nombre:</label>
+        <input name="form2nombre" type="text" autofocus="autofocus" required="required" id="form2nombre" tabindex="1" autocomplete="on" maxlength="30">
+        <label for="email">Email:</label>
+        <input name="email" type="email" autofocus="autofocus" required="required" id="email" tabindex="2" autocomplete="on">
+        <input name="enviar" type="submit" autofocus="autofocus" id="enviar" formaction="../index.html" formmethod="GET" tabindex="3" value="Enviar">
+  	    
+      </form>
+		
+	</section>
+</main>
+<footer><h6>Este sitio fue elaborado por <b>Josué Rodríguez Cuautle</b></h6></footer>
+</body>
+</html>
